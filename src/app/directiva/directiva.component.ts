@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DirectivaComponent{
 
-  listaCurso: string[] = ['TypeScript','.Net','Java','PHP','C++','Python','C#','Javascript']	;
+  listaCurso: string[] = ['TypeScript','.Net','Java','PHP','C++','Python','C#','Javascript'];
   habilitar: boolean = true;
   constructor() { }  
 

@@ -18,4 +18,8 @@ export class ClientesComponent implements OnInit {
   	); 
   }
 
+  getSize(){
+  	return this.clientes.length;
+  }
+
 }
