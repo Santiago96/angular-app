@@ -17,9 +17,4 @@ export class ClientesComponent implements OnInit {
   		clientes => this.clientes = clientes
   	); 
   }
-
-  getSize(){
-  	return this.clientes.length;
-  }
-
 }
