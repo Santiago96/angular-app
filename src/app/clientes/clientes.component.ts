@@ -23,7 +23,6 @@ export class ClientesComponent implements OnInit {
   	swal({
 		  title: 'Está seguro?',
 		  text: `¿Seguro que desea eliminar al cliente ${cliente.nombre} ${cliente.apellido}?`,
-		  icon: 'warning',
 		  showCancelButton: true,
 		  confirmButtonColor: '#3085d6',
 		  cancelButtonColor: '#d33',
